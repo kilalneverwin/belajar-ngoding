@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Document</title>
+        <style>
+            body {
+                padding: 25px;
+                background-color: white;
+                color: black;
+                font-size: 25px;
+            }
+
+            .dark-mode {
+                background-color: black;
+                color: white;
+            }
+            button {
+                padding: 10px;
+                width: 200px;
+                background-color: #35f9f799;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-shadow: 5px 5px 0px #000;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Made by <strong>Kilal</strong></p>
+        <button onclick="myFunction()">Change</button>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+</html>
