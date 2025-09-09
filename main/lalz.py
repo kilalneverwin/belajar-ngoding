@@ -1,0 +1,1 @@
+print(f"Nilai __name__ pada lalz.py = '{__name__}'")
